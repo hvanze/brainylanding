@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #489EE7), to(#2189E2)) !important;
+  background: linear-gradient(#489EE7 20%, #2189E2 100%) !important;
+}
+
+.navbar, .navbar-brand a {
+  position: absolute;
+  top: 3%;
+  left: 6.5%;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.75rem;
+}
+
+.navbar, .navbar-brand a:hover {
+  color: #fff;
+}
+
+.bg-custom {
+  height: 100vh;
+  background-image: url(../img/main-bg.png) !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-custom .container {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-custom span {
+  color: #ff5e00;
+}
+
+.bg-custom h1 {
+  margin-left: 50px;
+  font-size: 3.5rem;
+  -webkit-animation: fadeInDown;
+          animation: fadeInDown;
+  /* referring directly to the animation's @keyframe declaration */
+  -webkit-animation-duration: 1.75s;
+          animation-duration: 1.75s;
+  /* don't forget to set a duration! */
+}
+
+.bg-custom p {
+  margin-left: 50px;
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+  font-size: 1.025rem;
+}
+
+.bg-custom .btn-main {
+  background-color: #ff5e00;
+  padding: .5rem 2.75rem;
+  text-transform: uppercase;
+  font-size: 0.985rem;
+  font-weight: 700;
+  margin-left: 50px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-animation-delay: 850ms;
+          animation-delay: 850ms;
+}
+
+.bg-custom .btn-main a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.bg-custom .btn-main:hover {
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+  background-color: #dd5100;
+}
+
+.bg-custom .bi-search {
+  font-size: 2.15rem;
+  margin-right: 15px;
+  position: relative;
+  bottom: 7px;
+}
+
+.quiz-bg {
+  background-color: #2189E2;
+  background-image: url(../img/quiz-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section h3 {
+  font-size: 1.65rem;
+}
+
+section .bi-arrow-right {
+  font-size: 24px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px;
+  color: #ff5e00;
+}
+
+section .gender-button {
+  height: 245px;
+  width: 245px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 7px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section .gender-button:hover {
+  -webkit-transform: scale(1.025);
+          transform: scale(1.025);
+  border: 2.5px solid #ff5e00;
+}
+
+section .btn-padding {
+  padding: 1.5rem;
+}
+
+section a {
+  color: #2189E2;
+  text-decoration: none;
+  text-align: center;
+}
+
+section .icon-option {
+  border: 1px solid #2189E2;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  background-color: #f4f4f4;
+}
+
+section .icon-option:hover {
+  color: #fff;
+  background-color: #489EE7;
+}
+
+section .btn-padding-02 {
+  padding: 3.15rem;
+}
+
+section .row-results {
+  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 2rem;
+}
+
+section .cards {
+  min-height: 900px;
+}
+
+section .card {
+  border-radius: 10px;
+}
+
+section .card-title {
+  font-size: 1.2rem;
+}
+
+section .card-text, section .card-title {
+  color: #2189E2;
+}
+
+section .btn-result {
+  background-color: #ff5e00;
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  color: #fff;
+  font-weight: bold;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section .btn-result:hover {
+  color: #fff;
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+  background-color: #dd5100;
+}
+
+section .mt-n10 {
+  margin-top: 35px;
+}
+
+section li {
+  list-style-image: url(../img/check-all.svg);
+  margin-top: 1rem;
+}
+
+section .price {
+  color: #2189E2;
+  font-weight: bold;
+}
+
+section .quiz-results {
+  max-width: 192px;
+  height: 200px;
+  margin-top: 100px;
+}
+/*# sourceMappingURL=style.css.map */

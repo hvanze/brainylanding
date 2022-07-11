@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    background: linear-gradient(#489EE7 20%, #2189E2 100%) !important;
+}
+.navbar, .navbar-brand a{
+    position: absolute;
+    top: 3%;
+    left: 6.5%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+.navbar, .navbar-brand a:hover{
+    color: #fff;
+}
+
+
+.bg-custom{
+    height: 100vh;
+    background-image: url(../img/main-bg.png) !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+    .container{
+        flex-direction: column;
+    }
+
+    span{
+        color: rgb(255, 94, 0);
+    }
+    h1{
+        margin-left: 50px;
+        font-size: 3.5rem;
+        animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1.75s; /* don't forget to set a duration! */
+    }
+    p{
+        margin-left: 50px;
+        animation-delay: 600ms;
+        font-size: 1.025rem;
+    }
+    .btn-main{
+        background-color: rgb(255, 94, 0);
+        padding: .5rem 2.75rem;
+        text-transform: uppercase;
+        font-size: 0.985rem;
+        font-weight: 700;
+        margin-left: 50px;
+        transition: .4s;
+        animation-delay: 850ms;
+    }
+    .btn-main a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-main:hover{
+        transform: scale(1.035);
+        background-color: rgb(221, 81, 0);
+    }
+    .bi-search{
+        font-size: 2.15rem;
+        margin-right: 15px;
+        position: relative;
+        bottom: 7px;
+    }
+}
+
+.quiz-bg{
+    background-color: #2189E2;
+    background-image: url(../img/quiz-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section{
+    flex-direction: column;
+    h3{
+        font-size: 1.65rem;
+    }
+    .bi-arrow-right{
+        font-size: 24px;
+        font-weight: bold;
+        -webkit-text-stroke: 1px;
+        color: rgb(255, 94, 0);
+    }
+    .gender-button{
+        height: 245px;
+        width: 245px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        transition: .4s;
+    }
+    .gender-button:hover{
+        transform: scale(1.025);
+        border: 2.5px solid rgb(255, 94, 0);
+    }
+    .btn-padding{
+        padding: 1.5rem;
+    }
+    a{
+        color: #2189E2;
+        text-decoration: none;
+        text-align: center;
+    }
+    .icon-option{
+        border: 1px solid #2189E2;
+        padding: 2px 8px;
+        border-radius: 3px;
+        font-size: 14px;
+        background-color: rgb(244, 244, 244);
+    }
+    .icon-option:hover{
+        color: #fff;
+        background-color: #489EE7;
+    }
+    .btn-padding-02{
+        padding: 3.15rem;
+    }
+    .row-results{
+        margin: 0 auto;
+        flex-direction: row;
+        margin: 2rem;
+    }
+    .cards{
+        min-height: 900px;
+    }
+    .card{
+        border-radius: 10px;
+    }
+    .card-title{
+        font-size: 1.2rem;
+    }
+    .card-text, .card-title{
+        color: #2189E2;
+    }
+    .btn-result{
+        background-color: rgb(255, 94, 0);
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        color: #fff;
+        font-weight: bold;
+        transition: .4s;
+    }
+    .btn-result:hover{
+        color: #fff;
+        transform: scale(1.035);
+        background-color: rgb(221, 81, 0);
+    }
+    .mt-n10{
+        margin-top: 35px;
+    }
+    li{
+        list-style-image: url(../img/check-all.svg);
+        margin-top: 1rem;
+    }
+    .price{
+        color: #2189E2;
+        font-weight: bold;
+    }
+    .quiz-results{
+        max-width: 192px;
+        height: 200px;
+        margin-top: 100px;
+    }
+}
